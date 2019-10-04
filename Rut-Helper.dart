@@ -19,7 +19,7 @@ class RutHelper {
   }
 
   static bool Check(String rut) {
-    // Despejar Puntos
+    // Despejar Puntos y comas
     var valor = rut.replaceAll('.', '');
     // Despejar Guión
     valor = valor.replaceAll('-', '');
